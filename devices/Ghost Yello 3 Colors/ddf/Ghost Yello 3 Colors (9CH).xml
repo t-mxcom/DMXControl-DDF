@@ -17,23 +17,54 @@
       <step caption="Sound active mode" mindmx="128" maxdmx="191" />
       <step caption="DMX mode" mindmx="192" maxdmx="255" />
     </rawstep>
-    <raw dmxchannel="1" name="Pattern select">
-      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="255" />
-    </raw>
+    <rawstep dmxchannel="1" name="Pattern select">
+      <step caption="Circle" mindmx="0" maxdmx="7" />
+      <step caption="Circle slow" mindmx="0" maxdmx="15" />
+      <step caption="Triangle" mindmx="16" maxdmx="23" />
+      <step caption="Square" mindmx="24" maxdmx="31" />
+      <step caption="Square 2" mindmx="32" maxdmx="39" />
+      <step caption="Small square in large square" mindmx="40" maxdmx="47" />
+      <step caption="Cross" mindmx="48" maxdmx="55" />
+      <step caption="Sun" mindmx="56" maxdmx="63" />
+      <step caption="Right bottom corner" mindmx="64" maxdmx="71" />
+      <step caption="Hourglass laying on the side" mindmx="72" maxdmx="79" />
+      <step caption="Snail" mindmx="80" maxdmx="87" />
+      <step caption="C facing to left and right" mindmx="88" maxdmx="95" />
+      <step caption="Half snail" mindmx="96" maxdmx="103" />
+      <step caption="Top left and bottom right parts of a circle" mindmx="104" maxdmx="111" />
+      <step caption="Sunglasses" mindmx="112" maxdmx="119" />
+      <step caption="Zig zag" mindmx="120" maxdmx="127" />
+      <step caption="V" mindmx="128" maxdmx="135" />
+      <step caption="M" mindmx="136" maxdmx="143" />
+      <step caption="Magnet" mindmx="144" maxdmx="151" />
+      <step caption="Horizontal line" mindmx="152" maxdmx="159" />
+      <step caption="Horizontal broken line" mindmx="160" maxdmx="167" />
+      <step caption="Horizontal line 2" mindmx="168" maxdmx="175" />
+      <step caption="Two horizontal lines" mindmx="176" maxdmx="183" />
+      <step caption="Crossed lines" mindmx="184" maxdmx="191" />
+      <step caption="Two half horizontal lines" mindmx="192" maxdmx="199" />
+      <step caption="Four lines arranged in 45 degree square" mindmx="200" maxdmx="207" />
+      <step caption="Two small squares" mindmx="208" maxdmx="215" />
+      <step caption="Four small squares" mindmx="216" maxdmx="223" />
+      <step caption="One small square" mindmx="224" maxdmx="231" />
+      <step caption="Dotted horizontal line" mindmx="232" maxdmx="239" />
+      <step caption="Dotted lower half of a circle" mindmx="240" maxdmx="247" />
+      <step caption="Dotteds everywhere" mindmx="248" maxdmx="255" />
+    </rawstep>
     <rawranges dmxchannel="2" name="Zooming" >
       <range type="Manual adjust the pattern size" mindmx="0" maxdmx="127" minval="0" maxval="100" />
       <range type="Loop zooming in and out" mindmx="128" maxdmx="255" minval="0" maxval="100" />
     </rawranges>
     <rawranges dmxchannel="3" name="X axis rolling" >
-      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Manual rolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
       <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
     </rawranges>
     <rawranges dmxchannel="4" name="Y axis rolling" >
-      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Manual rolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
       <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
     </rawranges>
     <rawranges dmxchannel="5" name="Z axis rolling" >
-      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Manual rolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
       <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
     </rawranges>
     <rawranges dmxchannel="6" name="X axis moving" >

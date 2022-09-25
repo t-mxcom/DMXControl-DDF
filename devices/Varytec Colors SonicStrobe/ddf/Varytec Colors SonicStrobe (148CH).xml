@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="148" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Colors SonicStrobe</model>
+    <vendor>Varytec</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>148CH</mode>
+  </information>
+  <functions name="Strobe">
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="1">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions name="RGB Background global">
+    <dimmer dmxchannel="2">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="3">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions name="RGB Background group 1">
+    <rgb>
+      <red dmxchannel="4" />
+      <green dmxchannel="5" />
+      <blue dmxchannel="6" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 2">
+    <rgb>
+      <red dmxchannel="7" />
+      <green dmxchannel="8" />
+      <blue dmxchannel="9" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 3">
+    <rgb>
+      <red dmxchannel="10" />
+      <green dmxchannel="11" />
+      <blue dmxchannel="12" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 4">
+    <rgb>
+      <red dmxchannel="13" />
+      <green dmxchannel="14" />
+      <blue dmxchannel="15" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 5">
+    <rgb>
+      <red dmxchannel="16" />
+      <green dmxchannel="17" />
+      <blue dmxchannel="18" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 6">
+    <rgb>
+      <red dmxchannel="19" />
+      <green dmxchannel="20" />
+      <blue dmxchannel="21" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 7">
+    <rgb>
+      <red dmxchannel="22" />
+      <green dmxchannel="23" />
+      <blue dmxchannel="24" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 8">
+    <rgb>
+      <red dmxchannel="25" />
+      <green dmxchannel="26" />
+      <blue dmxchannel="27" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 9">
+    <rgb>
+      <red dmxchannel="28" />
+      <green dmxchannel="29" />
+      <blue dmxchannel="30" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 10">
+    <rgb>
+      <red dmxchannel="31" />
+      <green dmxchannel="32" />
+      <blue dmxchannel="33" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 11">
+    <rgb>
+      <red dmxchannel="34" />
+      <green dmxchannel="35" />
+      <blue dmxchannel="36" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 12">
+    <rgb>
+      <red dmxchannel="37" />
+      <green dmxchannel="38" />
+      <blue dmxchannel="39" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 13">
+    <rgb>
+      <red dmxchannel="40" />
+      <green dmxchannel="41" />
+      <blue dmxchannel="42" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 14">
+    <rgb>
+      <red dmxchannel="43" />
+      <green dmxchannel="44" />
+      <blue dmxchannel="45" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 15">
+    <rgb>
+      <red dmxchannel="46" />
+      <green dmxchannel="47" />
+      <blue dmxchannel="48" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 16">
+    <rgb>
+      <red dmxchannel="49" />
+      <green dmxchannel="50" />
+      <blue dmxchannel="51" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 17">
+    <rgb>
+      <red dmxchannel="52" />
+      <green dmxchannel="53" />
+      <blue dmxchannel="54" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 18">
+    <rgb>
+      <red dmxchannel="55" />
+      <green dmxchannel="56" />
+      <blue dmxchannel="57" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 19">
+    <rgb>
+      <red dmxchannel="58" />
+      <green dmxchannel="59" />
+      <blue dmxchannel="60" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 20">
+    <rgb>
+      <red dmxchannel="61" />
+      <green dmxchannel="62" />
+      <blue dmxchannel="63" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 21">
+    <rgb>
+      <red dmxchannel="64" />
+      <green dmxchannel="65" />
+      <blue dmxchannel="66" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 22">
+    <rgb>
+      <red dmxchannel="67" />
+      <green dmxchannel="68" />
+      <blue dmxchannel="69" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 23">
+    <rgb>
+      <red dmxchannel="70" />
+      <green dmxchannel="71" />
+      <blue dmxchannel="72" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 24">
+    <rgb>
+      <red dmxchannel="73" />
+      <green dmxchannel="74" />
+      <blue dmxchannel="75" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 25">
+    <rgb>
+      <red dmxchannel="76" />
+      <green dmxchannel="77" />
+      <blue dmxchannel="78" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 26">
+    <rgb>
+      <red dmxchannel="79" />
+      <green dmxchannel="80" />
+      <blue dmxchannel="81" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 27">
+    <rgb>
+      <red dmxchannel="82" />
+      <green dmxchannel="83" />
+      <blue dmxchannel="84" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 28">
+    <rgb>
+      <red dmxchannel="85" />
+      <green dmxchannel="86" />
+      <blue dmxchannel="87" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 29">
+    <rgb>
+      <red dmxchannel="88" />
+      <green dmxchannel="89" />
+      <blue dmxchannel="90" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 30">
+    <rgb>
+      <red dmxchannel="91" />
+      <green dmxchannel="92" />
+      <blue dmxchannel="93" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 31">
+    <rgb>
+      <red dmxchannel="94" />
+      <green dmxchannel="95" />
+      <blue dmxchannel="96" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 32">
+    <rgb>
+      <red dmxchannel="97" />
+      <green dmxchannel="98" />
+      <blue dmxchannel="99" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 33">
+    <rgb>
+      <red dmxchannel="100" />
+      <green dmxchannel="101" />
+      <blue dmxchannel="102" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 34">
+    <rgb>
+      <red dmxchannel="103" />
+      <green dmxchannel="104" />
+      <blue dmxchannel="105" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 35">
+    <rgb>
+      <red dmxchannel="106" />
+      <green dmxchannel="107" />
+      <blue dmxchannel="108" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 36">
+    <rgb>
+      <red dmxchannel="109" />
+      <green dmxchannel="110" />
+      <blue dmxchannel="111" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 37">
+    <rgb>
+      <red dmxchannel="112" />
+      <green dmxchannel="113" />
+      <blue dmxchannel="114" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 38">
+    <rgb>
+      <red dmxchannel="115" />
+      <green dmxchannel="116" />
+      <blue dmxchannel="117" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 39">
+    <rgb>
+      <red dmxchannel="118" />
+      <green dmxchannel="119" />
+      <blue dmxchannel="120" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 40">
+    <rgb>
+      <red dmxchannel="121" />
+      <green dmxchannel="122" />
+      <blue dmxchannel="123" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 41">
+    <rgb>
+      <red dmxchannel="124" />
+      <green dmxchannel="125" />
+      <blue dmxchannel="126" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 42">
+    <rgb>
+      <red dmxchannel="127" />
+      <green dmxchannel="128" />
+      <blue dmxchannel="129" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 43">
+    <rgb>
+      <red dmxchannel="130" />
+      <green dmxchannel="131" />
+      <blue dmxchannel="132" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 44">
+    <rgb>
+      <red dmxchannel="133" />
+      <green dmxchannel="134" />
+      <blue dmxchannel="135" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 45">
+    <rgb>
+      <red dmxchannel="136" />
+      <green dmxchannel="137" />
+      <blue dmxchannel="138" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 46">
+    <rgb>
+      <red dmxchannel="139" />
+      <green dmxchannel="140" />
+      <blue dmxchannel="141" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 47">
+    <rgb>
+      <red dmxchannel="142" />
+      <green dmxchannel="143" />
+      <blue dmxchannel="144" />
+    </rgb>
+  </functions>
+  <functions name="RGB Background group 48">
+    <rgb>
+      <red dmxchannel="145" />
+      <green dmxchannel="146" />
+      <blue dmxchannel="147" />
+    </rgb>
+  </functions>
+  <procedures />
+</device>

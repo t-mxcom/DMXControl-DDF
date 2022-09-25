@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="13" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Colors SonicStrobe</model>
+    <vendor>Varytec</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>13CH</mode>
+  </information>
+  <functions name="Strobe">
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="1">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+    <raw dmxchannel="2" name="Flash duration increasing">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+  </functions>
+  <functions name="RGB Background">
+    <dimmer dmxchannel="3">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="4">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+    <rgb>
+      <red dmxchannel="5" />
+      <green dmxchannel="6" />
+      <blue dmxchannel="7" />
+    </rgb>
+  </functions>
+  <functions name="Auto programmes">
+    <rawstep dmxchannel="8" name="Auto programmes">
+      <step caption="No Function" mindmx="0" maxdmx="7" />
+      <step caption="Programme 1" mindmx="8" maxdmx="22" />
+      <step caption="Programme 2" mindmx="23" maxdmx="37" />
+      <step caption="Programme 3" mindmx="38" maxdmx="52" />
+      <step caption="Programme 4" mindmx="53" maxdmx="82" />
+      <step caption="Programme 5" mindmx="83" maxdmx="97" />
+      <step caption="Programme 6" mindmx="98" maxdmx="112" />
+      <step caption="Programme 7" mindmx="113" maxdmx="127" />
+      <step caption="Programme 8" mindmx="128" maxdmx="142" />
+      <step caption="Programme 9" mindmx="143" maxdmx="157" />
+      <step caption="Programme 10" mindmx="158" maxdmx="172" />
+      <step caption="Programme 11" mindmx="173" maxdmx="187" />
+      <step caption="Programme 12" mindmx="188" maxdmx="202" />
+      <step caption="Programme 13" mindmx="203" maxdmx="217" />
+      <step caption="Programme 14" mindmx="218" maxdmx="232" />
+      <step caption="Programme 15" mindmx="233" maxdmx="247" />
+      <step caption="Programme 16" mindmx="248" maxdmx="255" />
+    </rawstep>
+    <raw dmxchannel="9" name="Programme running speed increasing">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+    <rawstep dmxchannel="10" name="Preset mixed colours for automatic programmes">
+      <step caption="No function" mindmx="0" maxdmx="7" />
+      <step caption="R" mindmx="8" maxdmx="45" />
+      <step caption="G" mindmx="46" maxdmx="83" />
+      <step caption="B" mindmx="84" maxdmx="121" />
+      <step caption="RG" mindmx="122" maxdmx="159" />
+      <step caption="RB" mindmx="160" maxdmx="197" />
+      <step caption="GB" mindmx="198" maxdmx="235" />
+      <step caption="RGB" mindmx="236" maxdmx="255" />
+    </rawstep>
+    <rawstep dmxchannel="11" name="Background colour">
+      <step caption="Automatic" mindmx="0" maxdmx="15" />
+      <step caption="R" mindmx="16" maxdmx="47" />
+      <step caption="G" mindmx="48" maxdmx="79" />
+      <step caption="B" mindmx="80" maxdmx="111" />
+      <step caption="RG" mindmx="112" maxdmx="143" />
+      <step caption="RB" mindmx="144" maxdmx="175" />
+      <step caption="RGB (Manual says this is GB)" mindmx="176" maxdmx="207" />
+      <step caption="R (Manual says this is RGB)" mindmx="208" maxdmx="255" />
+    </rawstep>
+    <rawstep dmxchannel="12" name="Change of direction">
+      <step caption="Change of direction from bottom to top" mindmx="0" maxdmx="127" />
+      <step caption="Change of direction from top to bottom" mindmx="128" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <procedures />
+</device>

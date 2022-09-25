@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="9" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Yello 3 Colors</model>
+    <vendor>Ghost</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>8CH</mode>
+    <electrical>
+      <static>30</static>
+      <dimmer>0</dimmer>
+    </electrical>
+  </information>
+  <functions>
+    <rawstep dmxchannel="0" name="Mode select">
+      <step caption="LASER OFF" mindmx="0" maxdmx="63" />
+      <step caption="Auto mode" mindmx="64" maxdmx="127" />
+      <step caption="Sound active mode" mindmx="128" maxdmx="191" />
+      <step caption="DMX mode" mindmx="192" maxdmx="255" />
+    </rawstep>
+    <raw dmxchannel="1" name="Pattern select">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="255" />
+    </raw>
+    <rawranges dmxchannel="2" name="Zooming" >
+      <range type="Manual adjust the pattern size" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Loop zooming in and out" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawranges dmxchannel="3" name="X axis rolling" >
+      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawranges dmxchannel="4" name="Y axis rolling" >
+      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawranges dmxchannel="5" name="Z axis rolling" >
+      <range type="Manual arolling" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Choose the rolling speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawranges dmxchannel="6" name="X axis moving" >
+      <range type="Manual adjust the position" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Choose the horizontal moving speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawranges dmxchannel="7" name="Y axis moving" >
+      <range type="Manual adjust the position" mindmx="0" maxdmx="127" minval="0" maxval="100" />
+      <range type="Choose the vertical moving speed" mindmx="128" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+    <rawstep dmxchannel="8" name="Colors">
+      <step caption="Original color" mindmx="0" maxdmx="63" />
+      <step caption="Red" mindmx="64" maxdmx="95" />
+      <step caption="Green" mindmx="96" maxdmx="127" />
+      <step caption="Blue" mindmx="128" maxdmx="159" />
+      <step caption="Yellow" mindmx="160" maxdmx="191" />
+      <step caption="Pink" mindmx="192" maxdmx="223" />
+      <step caption="Cyan" mindmx="224" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <procedures />
+</device>

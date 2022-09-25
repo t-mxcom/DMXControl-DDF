@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="148" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Colors SonicStrobe</model>
+    <vendor>Varytec</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>148CH</mode>
+  </information>
+  <functions>
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="1">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions>
+    <dimmer dmxchannel="2">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="3">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+    <matrix dmxchannel="4" monochrome="false" rows="4" columns="12" order="snake" />
+  </functions>
+  <procedures />
+</device>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="7" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Colors SonicStrobe</model>
+    <vendor>Varytec</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>7CH</mode>
+  </information>
+  <functions name="Strobe">
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="1">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions name="RGB Background">
+    <dimmer dmxchannel="2">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <strobe dmxchannel="3">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+    <rgb>
+      <red dmxchannel="4" />
+      <green dmxchannel="5" />
+      <blue dmxchannel="6" />
+    </rgb>
+  </functions>
+  <procedures />
+</device>

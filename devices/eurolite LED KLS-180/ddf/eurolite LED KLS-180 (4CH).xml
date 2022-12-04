@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<device type="DMXDevice" dmxaddresscount="7" dmxcversion="3.1.0" ddfversion="1.0">
+<device type="DMXDevice" dmxaddresscount="4" dmxcversion="3.1.0" ddfversion="1.0">
   <information>
     <model>LED KLS-180</model>
     <vendor>eurolite</vendor>

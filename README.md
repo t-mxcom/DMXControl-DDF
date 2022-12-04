@@ -33,13 +33,13 @@ It has a bunch of built-in patterns and automatic modes but also allows control 
 
 See the full description, images and DDFs [here](./devices/Ghost%20Yello%203%20Colors/docs/README.md).
 
-### LED Balken
+### eurolite LED KLS-180
 
-This is a LED based 4-head RGB spotlight.
+This is a LED based 4-head RGB spotlight with 4 small strobes.
 
 It has built-in programs and sound to light modes.
 
-See the full description, images and DDFs [here](./devices/xxxx/docs/README.md).
+See the full description, images and DDFs [here](./devices/eurolite%20LEL%KLS-180/docs/README.md).
 
 ## Additional information
 

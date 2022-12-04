@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="7" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>LED KLS-180</model>
+    <vendor>eurolite</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>8CH</mode>
+  </information>
+  <functions name="Dimmer">
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+  </functions>
+  <functions name="Spot Strobe">
+    <strobe dmxchannel="1">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions name="Spot 1 Color">
+    <rawstep dmxchannel="2" name="Color">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Red" mindmx="10" maxdmx="19" />
+      <step caption="Green" mindmx="20" maxdmx="29" />
+      <step caption="Blue" mindmx="30" maxdmx="39" />
+      <step caption="White" mindmx="40" maxdmx="49" />
+      <step caption="Yellow" mindmx="50" maxdmx="59" />
+      <step caption="Magenta" mindmx="60" maxdmx="69" />
+      <step caption="Cyan" mindmx="70" maxdmx="79" />
+      <step caption="Dark orange" mindmx="80" maxdmx="89" />
+      <step caption="Green yellow" mindmx="90" maxdmx="109" />
+      <step caption="Salmon" mindmx="110" maxdmx="119" />
+      <step caption="Turquoise" mindmx="120" maxdmx="129" />
+      <step caption="Light green" mindmx="130" maxdmx="139" />
+      <step caption="Orange" mindmx="140" maxdmx="149" />
+      <step caption="Straw" mindmx="150" maxdmx="159" />
+      <step caption="Lavender" mindmx="160" maxdmx="169" />
+      <step caption="Light blue" mindmx="170" maxdmx="179" />
+      <step caption="Dark blue" mindmx="180" maxdmx="189" />
+      <step caption="Pink" mindmx="190" maxdmx="199" />
+      <step caption="Cool white" mindmx="200" maxdmx="209" />
+      <step caption="Warm white" mindmx="210" maxdmx="219" />
+      <step caption="Color fade" mindmx="220" maxdmx="229" />
+      <step caption="Color change" mindmx="230" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <functions name="Spot 2 Color">
+    <rawstep dmxchannel="3" name="Color">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Red" mindmx="10" maxdmx="19" />
+      <step caption="Green" mindmx="20" maxdmx="29" />
+      <step caption="Blue" mindmx="30" maxdmx="39" />
+      <step caption="White" mindmx="40" maxdmx="49" />
+      <step caption="Yellow" mindmx="50" maxdmx="59" />
+      <step caption="Magenta" mindmx="60" maxdmx="69" />
+      <step caption="Cyan" mindmx="70" maxdmx="79" />
+      <step caption="Dark orange" mindmx="80" maxdmx="89" />
+      <step caption="Green yellow" mindmx="90" maxdmx="109" />
+      <step caption="Salmon" mindmx="110" maxdmx="119" />
+      <step caption="Turquoise" mindmx="120" maxdmx="129" />
+      <step caption="Light green" mindmx="130" maxdmx="139" />
+      <step caption="Orange" mindmx="140" maxdmx="149" />
+      <step caption="Straw" mindmx="150" maxdmx="159" />
+      <step caption="Lavender" mindmx="160" maxdmx="169" />
+      <step caption="Light blue" mindmx="170" maxdmx="179" />
+      <step caption="Dark blue" mindmx="180" maxdmx="189" />
+      <step caption="Pink" mindmx="190" maxdmx="199" />
+      <step caption="Cool white" mindmx="200" maxdmx="209" />
+      <step caption="Warm white" mindmx="210" maxdmx="219" />
+      <step caption="Color fade" mindmx="220" maxdmx="229" />
+      <step caption="Color change" mindmx="230" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <functions name="Spot 3 Color">
+    <rawstep dmxchannel="4" name="Color">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Red" mindmx="10" maxdmx="19" />
+      <step caption="Green" mindmx="20" maxdmx="29" />
+      <step caption="Blue" mindmx="30" maxdmx="39" />
+      <step caption="White" mindmx="40" maxdmx="49" />
+      <step caption="Yellow" mindmx="50" maxdmx="59" />
+      <step caption="Magenta" mindmx="60" maxdmx="69" />
+      <step caption="Cyan" mindmx="70" maxdmx="79" />
+      <step caption="Dark orange" mindmx="80" maxdmx="89" />
+      <step caption="Green yellow" mindmx="90" maxdmx="109" />
+      <step caption="Salmon" mindmx="110" maxdmx="119" />
+      <step caption="Turquoise" mindmx="120" maxdmx="129" />
+      <step caption="Light green" mindmx="130" maxdmx="139" />
+      <step caption="Orange" mindmx="140" maxdmx="149" />
+      <step caption="Straw" mindmx="150" maxdmx="159" />
+      <step caption="Lavender" mindmx="160" maxdmx="169" />
+      <step caption="Light blue" mindmx="170" maxdmx="179" />
+      <step caption="Dark blue" mindmx="180" maxdmx="189" />
+      <step caption="Pink" mindmx="190" maxdmx="199" />
+      <step caption="Cool white" mindmx="200" maxdmx="209" />
+      <step caption="Warm white" mindmx="210" maxdmx="219" />
+      <step caption="Color fade" mindmx="220" maxdmx="229" />
+      <step caption="Color change" mindmx="230" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <functions name="Spot 4 Color">
+    <rawstep dmxchannel="5" name="Color">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Red" mindmx="10" maxdmx="19" />
+      <step caption="Green" mindmx="20" maxdmx="29" />
+      <step caption="Blue" mindmx="30" maxdmx="39" />
+      <step caption="White" mindmx="40" maxdmx="49" />
+      <step caption="Yellow" mindmx="50" maxdmx="59" />
+      <step caption="Magenta" mindmx="60" maxdmx="69" />
+      <step caption="Cyan" mindmx="70" maxdmx="79" />
+      <step caption="Dark orange" mindmx="80" maxdmx="89" />
+      <step caption="Green yellow" mindmx="90" maxdmx="109" />
+      <step caption="Salmon" mindmx="110" maxdmx="119" />
+      <step caption="Turquoise" mindmx="120" maxdmx="129" />
+      <step caption="Light green" mindmx="130" maxdmx="139" />
+      <step caption="Orange" mindmx="140" maxdmx="149" />
+      <step caption="Straw" mindmx="150" maxdmx="159" />
+      <step caption="Lavender" mindmx="160" maxdmx="169" />
+      <step caption="Light blue" mindmx="170" maxdmx="179" />
+      <step caption="Dark blue" mindmx="180" maxdmx="189" />
+      <step caption="Pink" mindmx="190" maxdmx="199" />
+      <step caption="Cool white" mindmx="200" maxdmx="209" />
+      <step caption="Warm white" mindmx="210" maxdmx="219" />
+      <step caption="Color fade" mindmx="220" maxdmx="229" />
+      <step caption="Color change" mindmx="230" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <functions name="Bar Strobe">
+    <strobe dmxchannel="6">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="50" />
+    </strobe>
+  </functions>
+  <functions name="Programs via DMX">
+    <rawstep dmxchannel="7" name="Programs via DMX">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Auto mode via DMX" mindmx="10" maxdmx="99" />
+      <step caption="Sound mode via DMX" mindmx="100" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <procedures />
+</device>

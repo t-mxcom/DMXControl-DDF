@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" dmxaddresscount="7" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>LED KLS-180</model>
+    <vendor>eurolite</vendor>
+    <author>Markus Eßmayr</author>
+    <mode>21CH</mode>
+  </information>
+  <functions name="Dimmer">
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+  </functions>
+  <functions name="Strobe speed">
+    <rawranges dmxchannel="1" name="Strobe speed" >
+      <range type="No function" mindmx="0" maxdmx="9" minval="0" maxval="100" />
+      <range type="With increasing speed" mindmx="10" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+  </functions>
+  <functions name="Internal programs">
+    <rawranges dmxchannel="2" name="Internal programs" >
+      <range type="No function" mindmx="0" maxdmx="9" minval="0" maxval="100" />
+      <range type="With increasing speed" mindmx="10" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+  </functions>
+  <functions name="Strobe: white">
+    <rawranges dmxchannel="3" name="Strobe: white" >
+      <range type="No function" mindmx="0" maxdmx="9" minval="0" maxval="100" />
+      <range type="Strobe with increasing speed" mindmx="10" maxdmx="255" minval="0" maxval="100" />
+    </rawranges>
+  </functions>
+  <functions name="Spot 1">
+    <rgb>
+      <red dmxchannel="4" />
+      <green dmxchannel="5" />
+      <blue dmxchannel="6" />
+	  <white dmxchannel="7" />
+    </rgb>
+  </functions>
+  <functions name="Spot 2">
+    <rgb>
+      <red dmxchannel="8" />
+      <green dmxchannel="9" />
+      <blue dmxchannel="10" />
+	  <white dmxchannel="11" />
+    </rgb>
+  </functions>
+  <functions name="Spot 3">
+    <rgb>
+      <red dmxchannel="12" />
+      <green dmxchannel="13" />
+      <blue dmxchannel="14" />
+	  <white dmxchannel="15" />
+    </rgb>
+  </functions>
+  <functions name="Spot 4">
+    <rgb>
+      <red dmxchannel="16" />
+      <green dmxchannel="17" />
+      <blue dmxchannel="18" />
+	  <white dmxchannel="19" />
+    </rgb>
+  </functions>
+  <functions name="Programs via DMX">
+    <rawstep dmxchannel="20" name="Programs via DMX">
+      <step caption="No function" mindmx="0" maxdmx="9" />
+      <step caption="Auto mode via DMX" mindmx="10" maxdmx="99" />
+      <step caption="Sound mode via DMX" mindmx="100" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <procedures />
+</device>
